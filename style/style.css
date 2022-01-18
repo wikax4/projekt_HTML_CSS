@@ -1,0 +1,283 @@
+
+/*  menu navbar*/
+
+.navbar {
+    background-color: rgb(51, 90, 33);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-brand >img {
+    width: auto;
+    height: 50px !important;
+}
+.navbar-toggler {
+    margin-top: -50px;
+}
+
+.menu {
+    font-weight: bold;
+}
+.menu a:hover {
+  display: inline;
+    border-bottom: 3px solid white;
+}
+
+.social {
+    float: left;
+}
+
+.twitter a:hover {
+    color: #1CA1F2 !important;
+}
+.instagram a:hover {
+    color: #ED4956 !important;
+}
+.youtube a:hover {
+    color: #FF4636 !important;
+}
+.ticket a:hover {
+    color: lightblue !important;
+}
+
+
+/* intro  */
+
+
+
+.intro {
+    position: relative ;
+    background-image: url("..\\img\\bg1.jpg") ;
+    background-size: cover;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%; 
+    overflow: hidden;
+  }
+  
+  .intro .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .intro .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #F04D61;
+    opacity: 0.2;
+    z-index: 1;
+  }
+
+  .intro-h2{
+    /* margin: 200px 100px 500px 200px; */
+    padding: 100px;
+    font-family: arial;
+    font-size: 56px !important;
+    text-shadow: 0 10px 3px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+  }
+  .change-text:before{
+    content:'Konopie';
+    color:  rgb(94, 221, 162);
+    animation: yazı infinite 10s;
+  }
+  @keyframes yazı{
+    35%{content:'CBD';}
+    50%{content:'CBG';}
+    85%{content:'THC';}
+  }
+
+
+/* slider karuzela  */
+
+.slider {
+  background-color: rgb(51, 90, 33) !important;
+}
+
+.carousel {
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: rgb(51, 90, 33) !important;
+}
+.carousel-indicators  > li{
+  color: black !important;
+}
+.card-img-top {
+  width: auto;
+  height: 180px;
+  border-radius: 20px !important;
+  transition: 1s}
+
+.card-img-top:hover {
+  transition: 1s;
+  opacity: 0.6;
+}
+
+.card {
+  border-radius: 20px !important;
+}
+.card-body > .row > i{
+  border-radius: 100px;
+  z-index: 10;
+  padding: 25px;
+  margin-top: -50px;
+  margin-bottom: 30px;
+  color: white;
+  background-color: rgb(51, 90, 33) !important;
+}
+
+/* aktualnosci */
+
+.aktualnosci-bg {
+  background-image: url('..\\img\\bg-akt\ \(1\).png');
+  background-size: cover;
+/* tu dodac zeby na cale bylo bo wkurwia */
+}
+
+.aktualnosci > h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.aktualnosci > p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.aktualnosci-img1 {
+  background-size: cover;
+  background-image: url('..\\img\\/bg1.jpg');
+  width: auto;
+  height: 270px !important;
+}
+.aktualnosci-img2 {
+  background-size: cover;
+  background-image: url('..\\img\\bg2.jpg');
+  width: auto;
+  height: 270px !important;
+}
+.aktualnosci-img3 {
+  background-size: cover;
+  background-image: url('..\\img\\bg1.jpg');
+  width: auto;
+  height: 270px !important;
+}
+
+.aktualnosci-img {
+  transition: 1s;
+  opacity: 1;
+}
+.aktualnosci-img:hover {
+  transition: 1s;
+  border-radius: 40px;
+  opacity: 0.6;
+}
+
+
+/* galeriaa */
+
+.galeria-bg {
+  background-color: rgb(51, 90, 33);
+}
+.galeria > .row {
+  border: 5px solid white;
+} 
+.galeria-1{
+background-image: url('..\\img\\galeria1.jpg');
+background-size: cover;
+width: auto;
+height: 250px;
+border: 10px solid white;
+}
+.galeria-2{
+  background-image: url('..\\img\\galeria2.jpg');
+  background-size: cover;
+  width: auto;
+  height: 250px;
+  border: 10px solid white;
+}
+.galeria-3{
+  background-image: url('..\\img\\galeria1.jpg');
+  background-size: cover;
+  width: auto;
+  height: 250px;
+  border: 10px solid white;
+
+}
+.galeria-4{
+  background-image: url('..\\img\\galeria2.jpg');
+  background-size: cover;
+  width: auto;
+  height: 250px;
+  border: 10px solid white;
+
+}
+.galeria-5{
+  background-image: url('..\\img\\galeria1.jpg');
+  background-size: cover;
+  width: auto;
+  height: 250px;
+  border: 10px solid white;
+
+}
+.galeria-6{
+  background-image: url('..\\img\\galeria2.jpg');
+  background-size: cover;
+  width: auto;
+  height: 250px;
+  border: 10px solid white;
+
+}
+.galeria-7{
+  background-image: url('..\\img\\galeria1.jpg');
+  background-size: cover;
+  width: auto;
+  height: 250px;
+  border: 10px solid white;
+
+}
+.galeria-8{
+  background-image: url("..\\img\\galeria2.jpg");
+  background-size: cover;
+  width: auto;
+  height: 250px;
+  border: 10px solid white;
+
+}
+
+.galeria > .row > .px-4 {
+transition: 1s;
+}
+.galeria > .row > .px-4:hover {
+  opacity: 0.6;
+  transition: 1s;
+}
+
+/* Contact tu sie robi */
+
+.contact {
+  color: white;
+  
+}
+.contact-form {
+  background-color: rgb(51, 90, 33);
+  border-radius: 20px;
+}
+
+
+
+/* footer */
+
+footer {
+  background-color: rgb(51, 90, 33);
+  color: white;
+}
+
+.footer-authorright > a {
+  color: white;
+}

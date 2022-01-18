@@ -1,0 +1,71 @@
+
+/*  menu navbar*/
+
+.navbar {
+  background-color: rgb(51, 90, 33);
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-brand >img {
+  width: auto;
+  height: 50px !important;
+}
+.navbar-toggler {
+  margin-top: -50px;
+}
+
+.menu {
+  font-weight: bold;
+}
+.menu a:hover {
+display: inline;
+  border-bottom: 3px solid white;
+}
+
+.social {
+  float: left;
+}
+
+.twitter a:hover {
+  color: #1CA1F2 !important;
+}
+.instagram a:hover {
+  color: #ED4956 !important;
+}
+.youtube a:hover {
+  color: #FF4636 !important;
+}
+
+
+.container1 {
+height: 650px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 16px;
+flex-direction: column;
+margin-top: 90px
+}
+/* contact */
+.contact {
+  color: white;
+  
+}
+.contact-form {
+  background-color: rgb(51, 90, 33);
+  border-radius: 20px;
+}
+
+/* footer */
+
+footer {
+background-color: rgb(51, 90, 33);
+color: white;
+}
+
+.footer-authorright > a {
+color: white;
+}
